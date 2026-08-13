@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for agentmemory-fysm-g on 2026-06-09T11:22:05Z
+# fly.toml app configuration file generated for agentmemory-frchlq on 2026-08-13T10:48:38Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'agentmemory-fysm-g'
-primary_region = 'iad'
+app = 'agentmemory-frchlq'
+primary_region = 'lax'
 
 [build]
   dockerfile = 'Dockerfile'
@@ -15,7 +15,7 @@ primary_region = 'iad'
   initial_size = '1gb'
 
 [http_service]
-  internal_port = 3111
+  internal_port = 8080
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
